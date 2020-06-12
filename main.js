@@ -62,9 +62,7 @@ function countryClicked(evt) {
 	return true;
 }
 
-function sub() {
-	return true;
-}
+
 function submitCountry() {
 	var countryName = document.getElementById('myInput').value;
 	var country = document.getElementById('selectedCountry');

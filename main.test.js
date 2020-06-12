@@ -52,11 +52,6 @@ describe('testing all functions', () => {
 			}),
 		})
 	);
-	it('sub', () => {
-		const res = sub();
-
-		expect(res).toBe(true);
-	});
 
 	it('downloadData', async () => {
 		const res = await downloadData();
