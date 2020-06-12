@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1591968717365" clover="3.2.0">
-  <project timestamp="1591968717365" name="All files">
+<coverage generated="1591968986890" clover="3.2.0">
+  <project timestamp="1591968986890" name="All files">
     <metrics statements="109" coveredstatements="105" conditionals="18" coveredconditionals="13" methods="18" coveredmethods="15" elements="145" coveredelements="133" complexity="0" loc="109" ncloc="109" packages="1" files="1" classes="1"/>
     <file name="main.js" path="C:\xampp\htdocs\exam\main.js">
       <metrics statements="109" coveredstatements="105" conditionals="18" coveredconditionals="13" methods="18" coveredmethods="15"/>
