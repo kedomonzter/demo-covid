@@ -10,14 +10,14 @@
     <script src="main.js" type="text/javascript"></script>
     <script>
 
-        describe("API", () => {
-            it("Set Uri", () => {
+        describe("API", function () {
+            it("Set Uri", function () {
                 console.log('primaryDataUrl', primaryDataUrl);
                 var URI = primaryDataUrl;
                 expect(typeof (URI)).toBe('string');
             });
 
-            it("Should fetch the API", (done) => {
+            it("Should fetch the API", function (done) {
                 var doneFn = jasmine.createSpy("success");
                 fetch(primaryDataUrl).then(function (response) {
                     expect(response.status).toBe(200);
